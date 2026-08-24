@@ -22,3 +22,4 @@ logs/
 *.db
 *.sqlite
 *.sqlite3
+data/ai_council_metrics.json
