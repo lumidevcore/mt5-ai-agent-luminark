@@ -1,0 +1,325 @@
+{
+  "SCOUT|deepseek-r1:1.5b": {
+    "role": "SCOUT",
+    "model": "deepseek-r1:1.5b",
+    "calls": 13,
+    "total_elapsed": 235.52128660000017,
+    "ok": 13,
+    "fail": 0,
+    "abstain": 0,
+    "json_repair": 10,
+    "timeout": 0,
+    "last_elapsed": 16.323337199999514,
+    "last_ok": true,
+    "last_reason": "The technical signals indicate a bearish trend, and the price is in a bearish zone. The bearish signals include a negative MACD, negative MACD signal, and a negative MACD histogram",
+    "updated_at": 1787558865.641874,
+    "recent": [
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 22.334241099999417,
+        "ts": 1787555921.6808546
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 16.68555489999926,
+        "ts": 1787555993.7858403
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 17.513572199999544,
+        "ts": 1787556107.8143847
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 17.420896800000264,
+        "ts": 1787556169.0695887
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 14.15322919999926,
+        "ts": 1787556228.2421997
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 17.16569890000028,
+        "ts": 1787556313.92449
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 20.677548900001057,
+        "ts": 1787557079.8256452
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 23.68697609999981,
+        "ts": 1787557988.7615914
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 17.89927770000031,
+        "ts": 1787558500.705289
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 16.126020499999868,
+        "ts": 1787558629.710442
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 16.143202600000222,
+        "ts": 1787558744.9642572
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 16.323337199999514,
+        "ts": 1787558865.6418765
+      }
+    ]
+  },
+  "TECHNICAL|qwen3.5:4b": {
+    "role": "TECHNICAL",
+    "model": "qwen3.5:4b",
+    "calls": 12,
+    "total_elapsed": 575.2707090999957,
+    "ok": 12,
+    "fail": 0,
+    "abstain": 0,
+    "json_repair": 0,
+    "timeout": 0,
+    "last_elapsed": 46.72809439999946,
+    "last_ok": true,
+    "last_reason": "Strong bearish structure, price below all EMAs, RSI oversold, MACD negative histogram.",
+    "updated_at": 1787558791.6942282,
+    "recent": [
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 49.89733139999953,
+        "ts": 1787555718.639744
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 55.17488009999943,
+        "ts": 1787555976.858336
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 42.65648890000011,
+        "ts": 1787556036.4443066
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 43.60823079999864,
+        "ts": 1787556151.426317
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 43.7168815999994,
+        "ts": 1787556212.7895787
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 40.673524600000746,
+        "ts": 1787556268.9174047
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 43.45276720000038,
+        "ts": 1787556357.378759
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 58.862564699998984,
+        "ts": 1787557138.6898868
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 55.389772900000025,
+        "ts": 1787558044.153339
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 50.99251879999974,
+        "ts": 1787558551.6994896
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 44.11765369999921,
+        "ts": 1787558673.8302495
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 46.72809439999946,
+        "ts": 1787558791.6942306
+      }
+    ]
+  },
+  "CRITIC|kwangsuklee/Qwen3.5-4B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2": {
+    "role": "CRITIC",
+    "model": "kwangsuklee/Qwen3.5-4B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2",
+    "calls": 6,
+    "total_elapsed": 344.7059694000018,
+    "ok": 3,
+    "fail": 3,
+    "abstain": 3,
+    "json_repair": 0,
+    "timeout": 3,
+    "last_elapsed": 56.27690480000092,
+    "last_ok": true,
+    "last_reason": "Strong bearish structure with price below all EMAs, RSI oversold (32.75), negative MACD histogram, and low volatility regime.",
+    "updated_at": 1787558847.972765,
+    "recent": [
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 60.01415129999987,
+        "ts": 1787555778.655487
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 53.624843300000066,
+        "ts": 1787556090.0713413
+      },
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 60.016308399999616,
+        "ts": 1787557198.7078972
+      },
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 60.01307029999953,
+        "ts": 1787558611.7143037
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 54.76069130000178,
+        "ts": 1787558728.5930955
+      },
+      {
+        "ok": true,
+        "abstain": false,
+        "timeout": false,
+        "elapsed": 56.27690480000092,
+        "ts": 1787558847.9727676
+      }
+    ]
+  },
+  "CHIEF|kwangsuklee/Qwen3.5-9B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2": {
+    "role": "CHIEF",
+    "model": "kwangsuklee/Qwen3.5-9B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2",
+    "calls": 2,
+    "total_elapsed": 150.02671770000052,
+    "ok": 0,
+    "fail": 2,
+    "abstain": 2,
+    "json_repair": 0,
+    "timeout": 2,
+    "last_elapsed": 75.00973279999926,
+    "last_ok": false,
+    "last_reason": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=75)",
+    "updated_at": 1787557273.7206182,
+    "recent": [
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 75.01698490000126,
+        "ts": 1787555853.6763465
+      },
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 75.00973279999926,
+        "ts": 1787557273.7206206
+      }
+    ]
+  },
+  "CHIEF|kwangsuklee/Qwen3.5-4B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2": {
+    "role": "CHIEF",
+    "model": "kwangsuklee/Qwen3.5-4B.Q4_K_M-Claude-4.6-Opus-Reasoning-Distilled-v2",
+    "calls": 2,
+    "total_elapsed": 90.0233074000007,
+    "ok": 0,
+    "fail": 2,
+    "abstain": 2,
+    "json_repair": 0,
+    "timeout": 2,
+    "last_elapsed": 45.00787710000077,
+    "last_ok": false,
+    "last_reason": "ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=45)",
+    "updated_at": 1787557318.7363365,
+    "recent": [
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 45.015430299999935,
+        "ts": 1787555898.6994605
+      },
+      {
+        "ok": false,
+        "abstain": true,
+        "timeout": true,
+        "elapsed": 45.00787710000077,
+        "ts": 1787557318.7363384
+      }
+    ]
+  }
+}

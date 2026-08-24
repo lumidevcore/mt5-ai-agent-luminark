@@ -1,0 +1,24 @@
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Local databases / learning data
+*.db
+*.sqlite
+*.sqlite3
